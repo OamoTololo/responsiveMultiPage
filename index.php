@@ -16,7 +16,8 @@
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
 
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times-circle" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="index.html">ABOUT</a></li>
@@ -25,7 +26,29 @@
                     <li><a href="index.html">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
+
+        <div class="text-box">
+            <h1>Code Master's Courses</h1>
+            <p>Interested in Web Development. Hit me up and I can teach you HTML5, CSS3,<br>JavaScript, JQuery, SQL, GIT, VUE3 - VUE5, SYMFONY3</p>
+            <a href="" class="hero-button">Click Here to know More</a>
+        </div>
+
     </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/590e8175ae.js" crossorigin="anonymous"></script>
 </body>
 </html>
