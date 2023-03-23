@@ -14,7 +14,6 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.php"><h3>Oamogetswe Mgidi</h3></a>
 
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-times-circle" onclick="hideMenu()"></i>
