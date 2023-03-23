@@ -14,7 +14,7 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><h3>Oamogetswe Mgidi</h3></a>
+            <a href="index.php"><h3>Oamogetswe Mgidi</h3></a>
 
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-times-circle" onclick="hideMenu()"></i>
@@ -64,6 +64,36 @@
           </div>
 
 
+        </div>
+    </section>
+
+    <!---- Campus Section----->
+    <section class="campus">
+        <h1>Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid facilis inventore molestias nihil porro quaerat quos rem vero voluptatibus!</p>
+
+        <div class="row">
+
+            <div class="campus-col">
+                <img src="images/building.jpg">
+                <div class="layer">
+                    <h3>Soshanguve</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/building2.jpg">
+                <div class="layer">
+                    <h3>Mabopane</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/building3.jpg">
+                <div class="layer">
+                    <h3>Ga-Rankuwa</h3>
+                </div>
+            </div>
         </div>
     </section>
 
