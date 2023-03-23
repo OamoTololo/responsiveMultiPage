@@ -97,6 +97,35 @@
         </div>
     </section>
 
+    <!---- Facilities Section----->
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum et expedita ipsa itaque modi nulla quibusdam quo sapiente sed ullam?</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores deleniti doloribus incidunt iure maxime nesciunt
+                    quaerat sequi sint vitae?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/soccer.jpg">
+                <h3>World Class Sports-ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores deleniti doloribus incidunt iure maxime nesciunt
+                    quaerat sequi sint vitae?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.jpg">
+                <h3>World Class Cafeteria's</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores deleniti doloribus incidunt iure maxime nesciunt
+                    quaerat sequi sint vitae?</p>
+            </div>
+        </div>
+    </section>
+
     <script>
         var navLinks = document.getElementById("navLinks");
 
