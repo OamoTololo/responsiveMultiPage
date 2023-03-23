@@ -126,6 +126,57 @@
         </div>
     </section>
 
+    <section class="testimonials">
+        <h1>Feedback</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum et expedita ipsa itaque modi nulla quibusdam quo sapiente sed ullam?</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae cum esse, harum ipsum iusto labore nemo neque obcaecati
+                        omnis quasi reiciendis repellat veritatis. Deleniti ex iusto magni quia quibusdam. Ab culpa, dignissimos magni molestias quo quod
+                        unde.</p>
+                    <h3>Oamogetswe Mgidi</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae cum esse, harum ipsum iusto labore nemo neque obcaecati
+                        omnis quasi reiciendis repellat veritatis. Deleniti ex iusto magni quia quibusdam. Ab culpa, dignissimos magni molestias quo quod
+                        unde.</p>
+                    <h3>Tiisetso Kutumela</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Me</h4>
+
+        <div class="icons">
+            <a href=""><i class="fa-brands fa-facebook fa-spin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github fa-spin fa-spin"></i></a>
+        </div>
+        <p>Coded and Designed by &copy; Oamogetswe Mgidi</p>
+    </section>
+
     <script>
         var navLinks = document.getElementById("navLinks");
 

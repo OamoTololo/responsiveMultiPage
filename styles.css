@@ -259,3 +259,73 @@ h3 {
     width: 100%;
     border-radius: 10px;
 }
+
+/**** testimonials ****/
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonials-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-col img {
+    height: 80px;
+    margin-left: 5px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.testimonials-col p {
+    padding: 0;
+}
+
+.testimonials-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.testimonials-col .fa-solid, .fa-regular {
+    color: #f44336;
+}
+
+@media(max-width: 700px) {
+    .testimonials-col img {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+/**** Footer ****/
+
+.footer {
+    background: #696969;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4, p {
+    color: black;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa-brands {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
