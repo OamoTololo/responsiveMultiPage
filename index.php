@@ -14,7 +14,7 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html"><h3>Oamogetswe Mgidi</h3></a>
 
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-times-circle" onclick="hideMenu()"></i>
@@ -35,6 +35,36 @@
             <a href="" class="hero-button">Click Here to know More</a>
         </div>
 
+    </section>
+
+    <!---- Course Section----->
+    <section class="course">
+        <h1>Courses I Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at eos error est fugiat laboriosam perspiciatis quam tenetur veniam
+            voluptatibus! Beatae corporis dolores ducimus exercitationem iste modi quam?</p>
+
+        <div class="row">
+
+          <div class="course-col">
+              <h3>Beginner</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut corporis delectus dolor facere itaque iusto nobis pariatur
+                  praesentium voluptas.</p>
+          </div>
+
+          <div class="course-col">
+              <h3>Degree</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut corporis delectus dolor facere itaque iusto nobis pariatur
+                    praesentium voluptas.</p>
+          </div>
+
+          <div class="course-col">
+              <h3>Post-Graduate</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut corporis delectus dolor facere itaque iusto nobis pariatur
+                    praesentium voluptas.</p>
+          </div>
+
+
+        </div>
     </section>
 
     <script>
